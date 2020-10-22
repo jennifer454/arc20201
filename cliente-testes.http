@@ -10,9 +10,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
@@ -22,7 +22,7 @@ Accept: application/json
     ]
 }
 
-# arroz123,tipo=carro1,cor=branco,modelo=HB20,arcondicionado=sim,direcao hidraulica=sim latitude=-27,longitude=-48,preco=600
+# arroz123,tipo=carro1,cor=branco,modelo=hb20,arcondicionado=sim,direcao_hidraulica=sim latitude=-27,longitude=-48,preco=600
 
 ###
 
@@ -35,9 +35,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
@@ -59,9 +59,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
@@ -81,9 +81,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
@@ -105,9 +105,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
@@ -129,9 +129,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ]
 }
@@ -147,9 +147,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": 235
@@ -168,9 +168,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
     ],
     "valores": [
     ]
@@ -188,9 +188,9 @@ Accept: application/json
     "marcadores": [
         {"tipo": "carro1"},
         {"cor": "branco"},
-        {"modelo": "HB20"},
+        {"modelo": "hb20"},
         {"arcondicionado": "sim"}
-        {"direcao hidraulica": "sim"}
+        {"direcao_hidraulica": "sim"}
         
     ],
     "valores": [
