@@ -13,6 +13,32 @@ def validar_json(dados):
             resposta = {"Erro": "Campo 'medida' deve ser string."}
             return resposta, 400
 
+  #Verificar se a chave 'marcadores' consta no JSON
+    url_de_teste = None
+    if "marcadores" not in dados:
+        resposta = {"Erro": "Campo 'marcadores' inexistente."}
+        return resposta, 400
+    else:
+        for item in dados["marcadores"]:
+            for chave, valor in item.items():
+                if chave.lower() == "url":
+                    url_de_teste = valor
+        if url_de_teste:
+            try:
+                req = get(url_de_teste)
+                if req.status_code >= 400:
+                    resposta = {"Erro": "URL não permitida."}
+                    return resposta, 400
+            except:
+                resposta = {"Erro": "URL incompleta. Possível problema de resolução DNS."}
+                return resposta, 400
+                    
+        if url_de_teste:
+            req = get(url_de_teste)
+            if req.status_code >= 200 and req.status_code <= 399:
+                resposta = {"Sucesso": "URL válida"}
+                return resposta, 200      
+        
     # Verificar se a chave 'valores' consta no JSON.
     if "valores" not in dados:
         # Em caso contrário, retornar 400.
