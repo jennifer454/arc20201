@@ -6,20 +6,23 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Matias"},
-        {"acao": "sonhando"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 }
 
-# ideia,local=quarto,personagem=Matias,acao=sonhando latitude=-27,longitude=-48,altitude=80
+# arroz123,tipo=carro1,cor=branco,modelo=HB20,arcondicionado=sim,direcao hidraulica=sim latitude=-27,longitude=-48,preco=600
 
 ###
 
@@ -28,16 +31,19 @@ POST http://localhost:5000/gravar
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 }
 
@@ -49,16 +55,19 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+   "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 
 ###
@@ -70,14 +79,17 @@ Accept: application/json
 
 {
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 }
 
@@ -89,16 +101,19 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": 120,
+    "medida": "234",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 }
 
@@ -110,14 +125,16 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ]
 }
-
 ###
 
 # Requisição inválida: 'valores' com formato errado
@@ -126,13 +143,17 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
-    "valores": 4567
+    "valores": 235
+       
 }
 
 ###
@@ -143,11 +164,13 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+   "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"acao": "curiosa"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
     ],
     "valores": [
     ]
@@ -161,17 +184,19 @@ Content-Type: application/json
 Accept: application/json
 
 {
-    "medida": "ideia",
+    "medida": "arroz123",
     "marcadores": [
-        {"local": "quarto"},
-        {"personagem": "Lola"},
-        {"url": "https://github.com/boidacarapreta/arc20201"}
+        {"tipo": "carro1"},
+        {"cor": "branco"},
+        {"modelo": "HB20"},
+        {"arcondicionado": "sim"}
+        {"direcao hidraulica": "sim"}
+        
     ],
     "valores": [
-        {"latitude": -27.6084177},
-        {"longitude": -48.6354691},
-        {"altitude": 80}
+        {"latitude": -27.590059}, 
+        {"longitude": -48.637676},
+        {"preco": 600}
     ]
 }
-
 ###
