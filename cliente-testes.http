@@ -11,7 +11,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -36,7 +36,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -60,7 +60,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -82,7 +82,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -106,7 +106,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -130,7 +130,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ]
@@ -148,7 +148,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
@@ -169,7 +169,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
     ],
     "valores": [
@@ -189,7 +189,7 @@ Accept: application/json
         {"tipo": "carro1"},
         {"cor": "branco"},
         {"modelo": "hb20"},
-        {"arcondicionado": "sim"}
+        {"arcondicionado": "sim"},
         {"direcao_hidraulica": "sim"}
         
     ],
